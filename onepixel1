@@ -1,0 +1,24 @@
+while not(x=="yes"):
+        b=float(input("b2="))
+        c=float(input("c2="))
+        pb=(pb*b)/((pb*b)+(pb*(1-c)))
+        print("d=",pb)
+        x=(input("do you wont to stop="))
+print(pb)
+
+pb=a
+if pb/bp>0.05:
+    pb=b
+    bp=c
+a=(a*b)/((a*b)+(c*(1-l)))
+print("d=",a)
+x=""
+
+s=""
+while not(x=="yes"):
+        b=float(input("b2="))
+        c=float(input("c2="))
+        l=a
+        a=(a*b)/((a*b)+(c*(1-l)))
+        print("d=",a)
+        x=(input("do you wont to stop="))
